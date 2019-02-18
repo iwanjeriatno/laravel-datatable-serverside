@@ -1,1 +1,1 @@
-Route::get('datatable', 'PayrollItemController@datatable')->name('komponen-gaji.datatable');
+Route::get('datatable', 'Controller@datatable')->name('komponen-gaji.datatable');
