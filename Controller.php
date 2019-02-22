@@ -1,3 +1,6 @@
+use DataTables
+.   
+.
     public function datatable()
     {
         $data = PayrollItem::all();
@@ -16,3 +19,5 @@
         ->editColumn('id', '{{$id}}')
         ->make(true);
     }
+.
+.
